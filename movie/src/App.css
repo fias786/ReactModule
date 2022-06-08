@@ -1,0 +1,207 @@
+ul {
+  list-style: none;
+}
+
+.topheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 12px;
+  /* margin: 2px; */
+  background-color: blueviolet;
+}
+
+.topheader img {
+  width: 160px;
+}
+
+.topheader ul li {
+  display: inline;
+  float: right;
+  padding: 5px;
+  margin: 2px;
+}
+
+.topheader ul li {
+  color: aliceblue;
+}
+
+header {
+  background-color: #d3d3d3;
+  padding: 3px 2px;
+  display: flex;
+}
+
+header ul {
+  padding-left: 5px;
+}
+
+header ul li {
+  display: inline;
+  float: left;
+  margin: 2px;
+  padding: 2px 8px;
+}
+
+header ul li:hover {
+  cursor: pointer;
+}
+/* header ul li:hover {
+  background-color: #cacaca;
+} */
+
+.panels {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  /* justify-content: space-between;
+  align-items: flex-start; */
+}
+
+.left-panel {
+  margin: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.collapsible {
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.collapsible span {
+  padding-right: 10px;
+}
+
+#flipped {
+  transform: scaleY(-1);
+}
+
+.right-panel {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: start;
+  padding: 10px;
+}
+
+.right-panel div {
+  cursor: pointer;
+}
+
+.right-panel img {
+  width: 150px;
+  padding: 5px;
+  margin: 2px;
+}
+
+#parent {
+  position: relative;
+  width: 100%;
+  height: 385px;
+}
+
+.image-bg {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background: rgb(72, 72, 72);
+}
+
+/* .image-bg img {
+  width: 100px;
+} */
+
+#back-arrow {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  z-index: 2;
+}
+
+#back-arrow img {
+  border-radius: 50%;
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  padding: 2px;
+}
+
+#back-arrow img:hover {
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+}
+
+#movie-img {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  width: 230px;
+  z-index: 2;
+}
+
+#movie-name {
+  position: absolute;
+  top: 130px;
+  left: 320px;
+  z-index: 2;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.tab {
+  position: absolute;
+  top: 201px;
+  width: 100%;
+  height: 55px;
+  background-color: #d3d3d3;
+}
+
+.tab ul {
+  list-style: none;
+  padding-left: 300px;
+}
+
+.tab ul li {
+  display: inline;
+  padding: 5px 21px;
+}
+
+.tab ul li:hover {
+  cursor: pointer;
+  background-color: #c6c5c5;
+  border-radius: 4px;
+}
+
+#synopsis {
+  margin: 10px 25px;
+  padding: 10px 25px;
+}
+
+#synopsis p {
+  text-align: justify;
+}
+
+#timing {
+  padding: 50px;
+}
+
+#timing div {
+  padding: 10px 0px;
+}
+
+#timing table {
+  width: 100%;
+  text-align: center;
+}
+
+#timing table td {
+  padding: 2px 5px;
+  width: 33.33%;
+}
+
+#timing table tbody tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}

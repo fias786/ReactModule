@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    background-color: orangered;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.component{
+    display: flex
+}
